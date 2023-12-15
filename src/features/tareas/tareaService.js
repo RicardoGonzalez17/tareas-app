@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL ='http://localhost:3003/api/tareas/'
+//const API_URL ='http://localhost:3003/api/tareas/'
+const API_URL = 'https://teal-tough-fossa.cyclic.app/api/tareas/'
 
 //crear una tarea
 const crearTarea = async (tareaData, token) => {
